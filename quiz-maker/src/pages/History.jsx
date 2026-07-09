@@ -18,7 +18,7 @@ function History() {
 
     const fetchResults = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/results", {
+        const response = await fetch("https://quiz-maker-backend-l596.onrender.com/api/results", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

@@ -20,7 +20,7 @@ function TakeQuiz() {
   useEffect(() => {
     const fetchQuiz = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/quizzes/${id}`);
+        const response = await fetch(`https://quiz-maker-backend-l596.onrender.com/api/quizzes/${id}`);
         if (!response.ok) {
           throw new Error("Quiz not found");
         }
@@ -55,7 +55,7 @@ function TakeQuiz() {
 
   if (token) {
     try {
-      await fetch("http://localhost:5000/api/results", {
+      await fetch("https://quiz-maker-backend-l596.onrender.com/api/results", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

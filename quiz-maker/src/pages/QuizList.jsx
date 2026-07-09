@@ -11,7 +11,7 @@ function QuizList() {
   useEffect(() => {
     const fetchQuizzes = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/quizzes");
+        const response = await fetch("https://quiz-maker-backend-l596.onrender.com/api/quizzes");
         if (!response.ok) {
           throw new Error("Failed to fetch quizzes");
         }
