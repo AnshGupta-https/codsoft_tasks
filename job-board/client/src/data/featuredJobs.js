@@ -1,0 +1,32 @@
+export const featuredJobs = [
+  {
+    id: 1,
+    title: 'Frontend Developer Intern',
+    company: 'PixelSoft Labs',
+    location: 'Bengaluru',
+    type: 'Internship',
+    salary: 'Rs. 15k - 25k / month',
+    posted: '2 days ago',
+    tags: ['React', 'Tailwind CSS', 'JavaScript'],
+  },
+  {
+    id: 2,
+    title: 'MERN Stack Developer',
+    company: 'CloudNova Systems',
+    location: 'Hyderabad',
+    type: 'Full Time',
+    salary: 'Rs. 4 LPA - 7 LPA',
+    posted: '1 week ago',
+    tags: ['MongoDB', 'Express', 'Node.js'],
+  },
+  {
+    id: 3,
+    title: 'UI Developer',
+    company: 'BrightHire Tech',
+    location: 'Remote',
+    type: 'Full Time',
+    salary: 'Rs. 3 LPA - 5 LPA',
+    posted: '3 days ago',
+    tags: ['HTML', 'CSS', 'React'],
+  },
+]
